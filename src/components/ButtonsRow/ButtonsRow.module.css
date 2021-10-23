@@ -1,0 +1,13 @@
+.buttonsRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0px 0px;
+  margin: 0 auto 20px
+}
+
+@media screen and (min-width: 900px) {
+  .buttonsRow {
+    width: 600px;
+  }
+}

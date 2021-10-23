@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.myInput {
+  margin: 0px 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.myInput label {
+  margin-left: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}

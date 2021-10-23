@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+import WeatherStatus from './components/WeatherStatus/WeatherStatus';
+import Chart from 'chart.js/auto'
 
 function App() {
+
+  Chart.defaults.plugins.legend.onClick = {}
+
+  // const URL = 'http://127.0.0.1:5000/api/'
+  const URL = 'https://sc.asumadi.ru/api/'
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <WeatherStatus url={URL} type={'tmp'} />
+      <WeatherStatus url={URL} type={'hum'} />
     </div>
   );
 }

@@ -1,0 +1,37 @@
+.btn {
+  width: 100px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: background-color .2s ease, color .2s ease;
+}
+
+.tmp {
+  border-color: #dc3545;
+}
+
+.tmp:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.hum {
+  border-color: #0b5ed7;
+}
+
+.hum:hover {
+  background-color: #0b5ed7;
+  color: #fff;
+}
+
+.tmp.active {
+  background-color: #dc3545;
+  color: #fff
+}
+
+.hum.active {
+  background-color: #0b5ed7;
+  color: #fff
+}
