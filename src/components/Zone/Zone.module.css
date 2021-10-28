@@ -1,0 +1,16 @@
+.zone {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #111;
+  display: block;
+  transition: 0.3s;
+}
+
+.zone:hover {
+  color: rgba(17, 17, 17, 0.411);
+}
+
+.active {
+  color: rgba(17, 17, 17, 0.411);
+}

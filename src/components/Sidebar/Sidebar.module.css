@@ -1,0 +1,30 @@
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 ширина - изменить это с помощью JavaScript */
+  position: fixed; /* Оставайтесь на месте */
+  z-index: 1; /* Оставайтесь сверху */
+  top: 0; /* Оставайтесь наверху */
+  left: 0;
+  background-color: rgba(17, 17, 17, 0.308); /* Фон черный*/
+  overflow-x: hidden; /* Отключить горизонтальную прокрутку */
+  padding-top: 60px; /* Поместите контент в 60px сверху */
+  transition: 0.5s; /* 0.5 второй эффект перехода слайда в боковой навигации */
+}
+
+.sidebar h1 {
+  color: #111;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.closebtn:hover {
+  color: rgba(17, 17, 17, 0.411);
+}
