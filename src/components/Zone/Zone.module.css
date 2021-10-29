@@ -14,3 +14,10 @@
 .active {
   color: rgba(17, 17, 17, 0.411);
 }
+
+
+@media (max-width: 700px) {
+  .zone {
+    font-size: 15px;
+  }
+}

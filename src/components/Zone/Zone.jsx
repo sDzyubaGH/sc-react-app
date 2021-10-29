@@ -12,7 +12,7 @@ export default function Zone(props) {
       }
       el.target.classList.add(cl.active)
 
-      props.newUrl(`https://sc.asumadi.ru/api${props.id}/`)
+      props.newUrl(`https://sc.asumadi.ru/api/${props.id}/`)
     }} 
     href="#">Zone #{props.zoneNumber}</a>
   )

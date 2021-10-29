@@ -5,7 +5,8 @@ import cl from './Sidebar.module.css'
 export default function Sidebar(props) {
 
   const closeSidebar = () => {
-    document.querySelector('#mySidebar').style.width = '0'
+    // document.querySelector('#mySidebar').style.width = '0'
+    document.querySelector('#mySidebar').classList.remove(cl.active)
 
     setTimeout(() => {
       document.querySelector('#sidebarOpen').style.left = '0'

@@ -5,10 +5,14 @@
   z-index: 1; /* Оставайтесь сверху */
   top: 0; /* Оставайтесь наверху */
   left: 0;
-  background-color: rgba(17, 17, 17, 0.308); /* Фон черный*/
+  background-color: rgba(17, 17, 17, 0.5); /* Фон черный*/
   overflow-x: hidden; /* Отключить горизонтальную прокрутку */
   padding-top: 60px; /* Поместите контент в 60px сверху */
   transition: 0.5s; /* 0.5 второй эффект перехода слайда в боковой навигации */
+}
+
+.sidebar.active {
+  width: 30%;
 }
 
 .sidebar h1 {
@@ -27,4 +31,14 @@
 
 .closebtn:hover {
   color: rgba(17, 17, 17, 0.411);
+}
+
+
+@media (max-width: 700px) {
+  .sidebar {
+    background-color: rgb(0, 0, 0)
+  }
+  .sidebar.active {
+    width: 100%;
+  }
 }
